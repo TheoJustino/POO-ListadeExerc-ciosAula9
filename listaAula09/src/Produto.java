@@ -7,6 +7,11 @@ public class Produto {
         setPreco(preco);
     }
 
+    @Override 
+    public String toString(){
+        return "Produto{nome='" + nome + "', preco=" + preco + "}";
+    }
+
     public void setNome(String nome){
         this.nome = nome;
     }
